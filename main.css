@@ -1,0 +1,105 @@
+body{
+  text-align: center;
+  
+}
+
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card{
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+
+  display: flex;
+  flex: 1 16%;
+}
+
+
+#wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-1{
+  max-width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  text-align: center;
+  border: 400px;
+  border-style: solid;
+  border-color: lightblue;
+  border-width: 1px;
+  width: 400px;
+  height: 600px;
+  padding: 3px;
+  
+}
+
+.card-2{
+  max-width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  border: 400px;
+  border-style: solid ;
+  border-color: lightblue;
+  border-width: 1px;
+  width: 400px;
+  height: 600px;
+  padding: 3px;
+}
+
+
+.card-3{
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  border: 400px;
+  border-style: solid;
+  border-color: lightblue;
+  border-width: 1px;
+  width: 400px;
+  height: 600px;
+  padding: 3px;
+}
+
+.card-4{
+  max-width: 100%;
+  font-family:serif;
+  font-size: 15px;
+  text-align: center;
+  border: 400px;
+  border-style: solid;
+  border-color: lightblue;
+  border-width: 1px;
+  width: 400px;
+  height: 600px;
+  padding: 3px;
+}
+
+.productImg{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.overlay{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+#color-change{
+  background-color: darkgrey;
+  color: yellow;
+}
