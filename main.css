@@ -3,12 +3,29 @@ body{
   
 }
 
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card{
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+
+  display: flex;
+  flex: 1 16%;
+}
+
+
 #wrapper{
   display: flex;
   flex-wrap: wrap;
 }
 
 .card-1{
+  max-width: 100%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 15px;
   text-align: center;
@@ -23,6 +40,7 @@ body{
 }
 
 .card-2{
+  max-width: 100%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 15px;
   text-align: center;
@@ -37,6 +55,7 @@ body{
 
 
 .card-3{
+  max-width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   text-align: center;
@@ -50,6 +69,7 @@ body{
 }
 
 .card-4{
+  max-width: 100%;
   font-family:serif;
   font-size: 15px;
   text-align: center;
@@ -79,34 +99,7 @@ body{
   flex-direction: row;
 }
 
-.availabilty-1{
+#color-change{
   background-color: darkgrey;
   color: yellow;
-  width: 400px;
-  height: 5px;
-
-}
-
-.availabilty-2{
-  background-color: darkgrey;
-  color: yellow;
-  width: 400px;
-  height: 5px;
-
-}
-
-.availabilty-3{
-  background-color: darkgrey;
-  color: yellow;
-  width: 400px;
-  height: 5px;
-
-}
-
-.availabilty-4{
-  background-color:darkgrey;
-  color: yellow;
-  width: 400px;
-  height: 5px;
-
 }
